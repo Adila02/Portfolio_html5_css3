@@ -1,4 +1,38 @@
-body{
-    background-color: #ff0;
+:root {
+    /*cores que vou usar: #46494c; #4c5c68; #beb7a4; #db5461*/
+    --cor_do_fundo1: #beb7a4;
+    --cor_do_fundo2: #4c5c68;
+    --cor_do_header: #46494c;
+    --cor_do_texto: #0a0a0a;
+    --cor_de_especificidades: #db5461;
+    
 
+}
+
+/*Tamanho/estilo Smartphone Landscape*/
+@media (min-width:576px){ 
+    body{
+        background-color:var(--cor_do_fundo2);
+    }
+} 
+
+/*Tamanho/estilo Tablet Portrait*/
+@media (min-width:768px){ 
+    body{
+        background-color:var(--cor_do_fundo1);
+    }
+}
+
+/*Tamanho/estilo Tablet Landscape*/
+@media (min-width:992px){ 
+    body{
+        background-color:var(--cor_do_fundo2);
+    }
+}
+
+/*Tamanho/estilo Desktop*/
+@media (min-width:1200px){ 
+    body{
+        background-color:var(--cor_do_fundo1);
+    }
 }
