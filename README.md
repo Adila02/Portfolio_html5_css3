@@ -31,10 +31,10 @@ Para o funcionamento organizacional mais fluído o trabalho está dividido em tr
 As vantagens da construção desse projeto são diversas, e dentre elas está o aprendizado adquirido na construção de artefatos web, demonstração de conhecimentos técnicos, bem como organização de código com intenção profissional. Além disso, estabelece a base de versionamento e estrutura necessária para os próximos desafios.
 
 
-## Descrição (Terminar)
+## Descrição 
 
-Projeto em desenvolvimento para exposição na web do [Sprint 2][sprint2] através do deploy de um container docker na AWS Cloud, a figura a seguir representa a identidade visual e estrutural proposta neste projeto:
-
+Projeto em desenvolvimento para exposição na web do Portfólio Profissional através da criação e disponibilidade de um web site estático na plataforma GitHub. A figura a seguir representa a identidade visual e estrutural proposta neste projeto:
+## Trocar a Imagem pela imagem da onepage*
 <p align="center">
   <img src='https://user-images.githubusercontent.com/125395133/226207497-74f88742-5fe7-44e4-be5c-cee76300ceec.PNG' width='50%'>
 </p>
