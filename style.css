@@ -9,10 +9,41 @@
 
 }
 
+/*importando a fonte (google fonts)*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body{
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: 1em;
+  font-weight: 200 1000;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+/*css reset */
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+    box-sizing:border-box;
+}
+
+/*Layout*/
+.container{
+    margin: 0 auto;
+}
+
 /*Tamanho/estilo Smartphone Landscape*/
 @media (min-width:576px){ 
     body{
         background-color:var(--cor_do_fundo2);
+    }
+    /*Layout*/
+    .container{
+        width: 540px;
     }
 } 
 
@@ -21,6 +52,10 @@
     body{
         background-color:var(--cor_do_fundo1);
     }
+    /*Layout*/
+    .container{
+        width: 720px;
+    }
 }
 
 /*Tamanho/estilo Tablet Landscape*/
@@ -28,11 +63,19 @@
     body{
         background-color:var(--cor_do_fundo2);
     }
+    /*Layout*/
+    .container{
+        width: 960px;
+    }
 }
 
 /*Tamanho/estilo Desktop*/
 @media (min-width:1200px){ 
     body{
         background-color:var(--cor_do_fundo1);
+    }
+    /*Layout*/
+    .container{
+        width: 1140px;
     }
 }
