@@ -13,31 +13,37 @@
 <body>
 <!-- Cabeçalho -->
     <header id="inicio">
-        <div class="container">
-         <h1>Meu Portfolio Profissional Interativo</h1> 
-         <h2>Tecnologia da Informação com ênfase em ciência de dados</h2>  
-        </div>
         <nav>
-            <input type="checkbox" id="check">
-            <label for="check">&#x268c;</label>
-            <ul>
-                <li><a href="#inicio">inicio</a></li>
+            <ul class="flex-menu">
                 <li><a href="#sobre">Sobre mim</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
+        <div class="container flex">
+         <h1>Meu Portfólio Profissional Interativo</h1> 
+         <h2>Tecnologia da Informação com ênfase em ciência de dados</h2>  
+        </div>
     </header>
 <!-- Conteúdo principal -->
 <main>
-    <section id="sobre">
-        <div class="container">
+    <section id="sobre" class="sobre">
+        <div class="container sobre-flex"> 
+
+         <figure class="sobre-foto">
+            <img src="img/foto.png" alt="Foto de Ádila" class="foto-redonda">
+         </figure>
+
+         <article class="sobre-texto"> 
           <h2>Sobre mim</h2>
           <p>Olá! Me chamo Ádila, sou formada em engenharia civil e atualmente estou cursando minha segunda graduação na área de tecnologia.</p>
           <P>Sou apaixonada pelo mundo da tecnologia, além de poder criar experiências digitais incríveis.</P>
           <p>Possuo algumas habilidades em HTML5, CSS3, JavaScript, python, mysql, powerBI, Office e uma palhinha no mundo dos hardwares.</p>
-          <p>Sou curiosa por natureza, estou sempre buscando aprender e aprimorar minhas habilidades para entregar projetos de qualidade que contribuam para um mundo melhor.</p>  
+          <p>Sou curiosa por natureza, estou sempre buscando aprender e aprimorar minhas habilidades para entregar projetos de qualidade que contribuam para um mundo melhor.</p> 
+          <a href="curriculo Adila oficial (1) (1)1 (1).pdf" target="_blank" class="Botao">curriculo</a>   
+         </article>
+
         </div>
     </section>
 
@@ -86,6 +92,8 @@
                 <p> &copy; 2023 Meu Portfolio. Todos os direitos reservados.</p>
         </div>
     </footer>
+    <a href="#inicio" id="topo"><img src="img/topo.png" alt="topo do site"></a>
+
 </body>
 </html>
     
