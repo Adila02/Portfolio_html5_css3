@@ -13,6 +13,12 @@
     
 
 }
+
+/* Configurações globais (comportamento do scroll) */
+html {
+    scroll-behavior: smooth;
+}
+
 /* continuação das caracteristicas da tipografia*/
 body {
     font-family: var(--fonte-principal);
@@ -467,3 +473,10 @@ nav {
         width: 1140px;
     }
 }
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+

@@ -33,7 +33,7 @@ As vantagens da construção desse projeto são diversas, e dentre elas está o 
 
 ## Descrição 
 
-Projeto em desenvolvimento para exposição na web do Portfólio Profissional através da criação e disponibilidade de um web site estático na plataforma GitHub. A Imagem a seguir representa a identidade visual e estrutural proposta neste projeto:
+Projeto em desenvolvimento para exposição na web do Portfólio Profissional através da criação e disponibilidade de um web site estático na plataforma GitHub. O frame a seguir representa a identidade visual e estrutural proposta neste projeto:
 
 <p align="center">
   <img src="./assets/onepage_anima.gif" width="60%" alt="Demonstração do portfólio com navegação e rolagem">
