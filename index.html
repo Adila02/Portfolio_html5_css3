@@ -7,8 +7,8 @@
     <title>Portfolio</title>
     <meta name="description" content="Portfolio pessoal interativo construído com html5 e css3">
     <link rel="icon" href="img/icons8-favicon-50.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 <!-- Cabeçalho -->
@@ -22,17 +22,20 @@
             </ul>
         </nav>
         <div class="container flex">
-         <h1>Meu Portfólio Profissional Interativo</h1> 
+         <h1>Portfólio Profissional Interativo</h1> 
          <h2>Tecnologia da Informação com ênfase em ciência de dados</h2>  
         </div>
     </header>
 <!-- Conteúdo principal -->
 <main>
+    <!-- Seção Sobre mim -->
+
     <section id="sobre" class="sobre">
+        <h2 class="visually-hidden">Sobre mim</h2>
         <div class="container sobre-flex"> 
 
          <figure class="sobre-foto">
-            <img src="img/foto.png" alt="Foto de Ádila" class="foto-redonda">
+            <img src="assets/img/foto_Adila.jpg" alt="Foto profissional em preto e branco da Ádila" class="foto-redonda">
          </figure>
 
          <article class="sobre-texto"> 
@@ -41,58 +44,140 @@
           <P>Sou apaixonada pelo mundo da tecnologia, além de poder criar experiências digitais incríveis.</P>
           <p>Possuo algumas habilidades em HTML5, CSS3, JavaScript, python, mysql, powerBI, Office e uma palhinha no mundo dos hardwares.</p>
           <p>Sou curiosa por natureza, estou sempre buscando aprender e aprimorar minhas habilidades para entregar projetos de qualidade que contribuam para um mundo melhor.</p> 
-          <a href="curriculo Adila oficial (1) (1)1 (1).pdf" target="_blank" class="Botao">curriculo</a>   
+          <a href="assets/curriculo_Adila_oficial.pdf" target="_blank" class="Botao">curriculo</a>   
          </article>
 
         </div>
     </section>
 
-    <section id="projetos">
-        <div class="container">
-          <h2>Projetos</h2>
-        <ul>
-            <li><strong>Projeto 1:</strong> Um site de portfólio pessoal com design responsivo e interativo.</li>
-            <li><strong>Projeto 2:</strong> Um site chamado Datifísica, responsivo e interativo apresentado no Snef XXVI(Simpósio Nacional do Ensino de Física), desenvolvido com o intuito de integrar a ciência de dados como ferramenta chave para o suporte na educação e ensino de Física para o ensino médio.</li>
-            <li><strong>Projeto 3:</strong> Um blog/website sobre a história da criação do Android com artigos e curiosidades.</li>
-        </ul>  
-        </div>
-    </section>
+    <!-- Seção de Projetos -->
 
-    <section id="habilidades">
-        <div class="container">
-         <h2>Habilidades</h2>
-         <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>Design Responsivo</li>
-            <li>Git e Controle de Versão</li>
-            <li>Python</li>
-            <li>MySQL</li>
-            <li>Pacote Office</li>
-            <li>PowerBI</li>
-            <li>Hardware</li> 
-         </ul> 
+    <section id="projetos" class="projects">
+    <div class="container">
+        <div class="projects-header">
+            <h2 class="projects-title">Projetos em Destaque</h2>
+            <p class="projects-subtitle">Uma seleção de alguns dos meus trabalhos recentes.</p>
         </div>
-    </section>
+
+        <div class="projects-grid">
+            
+            <!-- Projeto 1 -->
+            <article class="project-card">
+                <div class="project-image-wrapper">
+                    <img src="assets/img/proj1.png" alt="Thumbnail Portfólio interativo desenvolvido com HTML5 e CSS3" class="project-image">
+                </div>
+                <div class="project-info">
+                    <div class="project-details">
+                        <h3 class="project-name">Portfólio Interativo</h3>
+                        <div class="project-tags">
+                            <span class="project-tag"></span>
+                            <span class="project-tag"></span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Adila02/Portfolio_html5_css3" target="_blank" class="btn-project">saiba mais</a>
+                </div>
+            </article>
+
+            <!-- Projeto 2 -->
+            <article class="project-card">
+                <div class="project-image-wrapper">
+                    <img src="assets/img/proj2.jpg" alt="Projeto Datifísica apresentado no Snef XXVI, focado no uso dos dados para o ensino da Física" class="project-image">
+                </div>
+                <div class="project-info">
+                    <div class="project-details">
+                        <h3 class="project-name">Datifísica</h3>
+                        <div class="project-tags">
+                            <span class="project-tag"></span>
+                            <span class="project-tag"></span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Adila02/DatiFisica" target="_blank" class="btn-project">saiba mais</a>
+                </div>
+            </article>
+
+            <!-- Projeto 3 -->
+            <article class="project-card">
+                <div class="project-image-wrapper">
+                    <img src="assets/img/proj3.jpg" alt="Thumbnail Android History sobre a evolução do sistema Android" class="project-image">
+                </div>
+                <div class="project-info">
+                    <div class="project-details">
+                        <h3 class="project-name">História do Android</h3>
+                        <div class="project-tags">
+                            <span class="project-tag"></span>
+                            <span class="project-tag"></span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Adila02/projeto-android" target="_blank" class="btn-project">saiba mais</a>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- Seção de Habilidades -->
+
+<section id="habilidades" class="services">
+    <div class="container">
+        <h2 class="projects-title">Habilidades Técnicas</h2>
+        
+        <div class="services-grid">
+            <!-- Card 1 -->
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+                <h3 class="service-title">Desenvolvimento Web</h3>
+                <p class="service-description">HTML5, CSS3, JavaScript e Design Responsivo para interfaces modernas.</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="service-card active">
+                <div class="service-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h3 class="service-title">Ciência de Dados</h3>
+                <p class="service-description">Python, MySQL, PowerBI e análise de dados para tomada de decisão.</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-gear"></i></div>
+                <h3 class="service-title">Infraestrutura</h3>
+                <p class="service-description">Git, Controle de Versão, Pacote Office e manutenção de Hardware.</p>
+            </div>
+        </div>
+    </div>
+</section>
 </main>
 <!-- Rodapé -->
-    <footer id="contato">
-        <div class="container">
+    <footer id="contato" class="footer-contact">
+    <div class="container">
+        <div class="footer-container">
             <h2>Contato</h2>
-            <p>Se você deseja entrar em contato comigo, sinta-se à vontade para enviar um email para:
-            <a href="adylla_mb@hotmail.com">adylla_mb@hotmail.com</a></p>
-            <p>Também estou presente nas redes sociais, onde compartilho meus projetos e insights sobre tecnologia.</p>
-            <p>Siga-me no LinkedIn, GitHub para ficar atualizado com minhas últimas atividades e projetos. Estou sempre aberta a novas conexões e oportunidades de colaboração!
-            </p> 
-             <ul>
-                <li><a href="https://www.linkedin.com/in/adila-m-203619171/" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/Adila02" target="_blank">GitHub</a></li> 
-             </ul>
-                <p> &copy; 2023 Meu Portfolio. Todos os direitos reservados.</p>
+            <p class="footer-text">
+                Estou sempre aberta a novas conexões e oportunidades de colaboração!<br>
+                Sinta-se à vontade para enviar um e-mail para: 
+                <a href="mailto:adylla_mb@hotmail.com" class="email-contato">adylla_mb@hotmail.com</a>
+            </p>
+
+            <!-- Div dos Ícones -->
+            <div class="footer-icons">
+                <a href="https://www.linkedin.com/in/adila-m-203619171/" target="_blank" class="footer-icon-link" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Adila02" target="_blank" class="footer-icon-link" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="mailto:adylla_mb@hotmail.com" class="footer-icon-link" aria-label="E-mail">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+
+            <p class="footer-copyright">
+                &copy; 2026 Ádila Portfolio. Todos os direitos reservados.
+            </p>
         </div>
-    </footer>
-    <a href="#inicio" id="topo"><img src="img/topo.png" alt="topo do site"></a>
+    </div>
+</footer>
+    <a href="#inicio" id="topo"><img src="img/topo.png" alt="Voltar ao topo do site"></a>
 
 </body>
 </html>

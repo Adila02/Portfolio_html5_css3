@@ -33,10 +33,10 @@ As vantagens da construção desse projeto são diversas, e dentre elas está o 
 
 ## Descrição 
 
-Projeto em desenvolvimento para exposição na web do Portfólio Profissional através da criação e disponibilidade de um web site estático na plataforma GitHub. A figura a seguir representa a identidade visual e estrutural proposta neste projeto:
-## Trocar a Imagem pela imagem da onepage*
+Projeto em desenvolvimento para exposição na web do Portfólio Profissional através da criação e disponibilidade de um web site estático na plataforma GitHub. A Imagem a seguir representa a identidade visual e estrutural proposta neste projeto:
+
 <p align="center">
-  <img src='https://user-images.githubusercontent.com/125395133/226207497-74f88742-5fe7-44e4-be5c-cee76300ceec.PNG' width='50%'>
+  <img src="./assets/onepage_anima.gif" width="60%" alt="Demonstração do portfólio com navegação e rolagem">
 </p>
 
 
